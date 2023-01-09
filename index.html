@@ -12,36 +12,60 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="main-content">
-    <header class="section sec1 header active">
-       
+    <header class="section sec1 header active" id="home">
+       <div class="header-content">
+        <div class="left-header">
+            <div class="h-shape"></div>
+            <div class="image">
+                <img src="img/leg-side.jpg" alt="">
+            </div>
+        </div>
+        <div class="right-header">
+            <h1 class="name">
+                Hi, I'm <span>Chidubem Anusiem Sinclair.</span>
+                A web Developer.
+            </h1>
+            <p>
+                I am a Web developer, I love to creating beautiful and functional website.
+                Eager to learn and a multitasker, I am interested in Tech and
+everything that it entails. 
+            </p>
+            <a href="" class="main-btn">
+                <span class="btn-text">Download CV</span>
+                <span class="btn-icon"><i class="fa-solid fa-download"></i></span>
+            </a>
+        </div>
+       </div>
     </header>
     <main>
-        <section class="section sec2 about">
+        <section class="section sec2 about" id="about">
         </section>
-        <section class="section sec3 Portfolio">
+        <section class="section sec3 Portfolio" id="portfolio">
         </section>
-        <section class="section sec4 blogs">
+        <section class="section sec4 blogs" id="blogs">
         </section>
-        <section class="section sec5 contact">
+        <section class="section sec5 contact" id="contact">
         </section>
     </main>
 
     <div class="controls">
-        <div class="control control-1 active-btn">
+        <div class="control control-1 active-btn" data-id="home">
             <i class="fa-solid fa-house-user"></i>
         </div>
-        <div class="control control-2 ">
+        <div class="control control-2 " data-id="about">
             <i class="fa-solid fa-user"></i>
         </div>
-        <div class="control control-3 ">
+        <div class="control control-3 " data-id="portfolio">
             <i class="fa-solid fa-briefcase"></i>
         </div>
-        <div class="control control-4 ">
+        <div class="control control-4 " data-id="blogs">
             <i class="fa-solid fa-newspaper"></i>
         </div>
-        <div class="control control-5 ">
+        <div class="control control-5 " data-id="contact">
             <i class="fa-solid fa-envelope-open-text"></i>
         </div>
     </div>
+
+    <script src="app.js"></script>
 </body>
 </html>
